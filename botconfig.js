@@ -4,9 +4,9 @@ module.exports = {
   DefaultPrefix: process.env.Prefix || ".", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://www.youtube.com/watch?v=dQw4w9WgXcQ", //Support Server Link
-  Token: process.env.Token || "ODQyOTk0MTIwODQ2MjEzMTYx.YJ9ZdA.NPpzUEHCuDmvKD_6IOMRE3vTLno", //Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "842994120846213161", //Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "DUNiixJYcEWYdWW51XBYpz084a4Mcc6H", //Discord Client Secret
+  Token: process.env.Token || "sexy", //Discord Bot Token
+  ClientID: process.env.Discord_ClientID || "sexy", //Discord Client ID
+  ClientSecret: process.env.Discord_ClientSecret || "sexy", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   ServerDeafen: true, //If you want bot to stay deafened
   DefaultVolume: 100, //Sets the default volume of the bot, You can change this number anywhere from 1 to 100
